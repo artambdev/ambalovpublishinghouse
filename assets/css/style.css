@@ -14,8 +14,8 @@ body {
     /* Enable flexbox display on all children */
     display: flex;
     flex-direction: column;
-    /* Off-white background */
-    color: #fafafa;
+    /* Grey text */
+    color: #3a4a3f;
 }
 
 /* Header */
@@ -62,6 +62,8 @@ main {
     flex: 1 0 auto;
     /* Push down somewhat so nav bar does not cover main content*/
     margin-top: 40px;
+    /* Off-white background */
+    background-color: #fafafa;
     /* Enable flex properties for any child elements */
     display: flex;
     flex-direction: column;
