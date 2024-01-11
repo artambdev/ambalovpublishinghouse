@@ -33,6 +33,29 @@ header {
     justify-content: space-between;
 }
 
+nav {
+    /* Fixed position */
+    position: absolute;
+    /* Match header background */
+    background-color: #85ffb4;
+    /* Stretch across the entire screen */
+    width: 100%;
+    /* Hide unless toggled */
+    display: none;
+    /* Stick to the bottom of the header */
+    top: 100%
+}
+
+/* If toggled, show the nav menu */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+/* Remove the toggle button's checkbox */
+#nav-toggle {
+    display: none;
+}
+
 /* Main content */
 main {
     /* Take up any surplus space */
