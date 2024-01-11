@@ -1,0 +1,45 @@
+/* Override default browser settings */
+* {
+    /* Zero padding unless specified */
+    padding: 0;
+    margin: 0;
+    /* Include padding and border in element height/width */
+    box-sizing: border-box;
+}
+
+/* General styles for entire page*/
+body {
+    /* Take up the entire page */
+    min-height: 100vh;
+    /* Enable flexbox display on all children */
+    display: flex;
+    flex-direction: column;
+    /* Off-white background */
+    color: #fafafa;
+}
+
+/* Header */
+header {
+    /* Set background color */
+    background-color: #85ffb4;
+    padding: 0 1rem;
+    /* Ensure it always covers the top of the screen */
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    /* Enable flexbox display for the navbar and logo*/
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+/* Main content */
+main {
+    /* Take up any surplus space */
+    flex: 1 0 auto;
+    /* Push down somewhat so nav bar does not cover main content*/
+    margin-top: 40px;
+    /* Enable flex properties for any child elements */
+    display: flex;
+    flex-direction: column;
+}
