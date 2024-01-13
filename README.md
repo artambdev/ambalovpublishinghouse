@@ -37,3 +37,9 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+
+Temp sources:
+
+Featured book cover:
+https://www.vecteezy.com/photo/21875238-dragon-black-and-white-ai-generated
+<a href="https://www.vecteezy.com/free-photos">Free Stock photos by Vecteezy</a>
