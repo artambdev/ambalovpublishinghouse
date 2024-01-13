@@ -118,6 +118,26 @@ main {
     flex-direction: column;
 }
 
+/* Home page */
+#hero-text {
+    /* Green box */
+    background-color:#85ffb4;
+    min-height: 100px;
+    margin: 20px 10%;
+    /* Arrange words in box */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/* Words within hero section */
+#hero-text h2 {
+    /* Increase word size */
+    font-size: 150%;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     /* Set background color */
