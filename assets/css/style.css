@@ -33,9 +33,20 @@ header {
     justify-content: space-between;
 }
 
+/* Logo link */
+header a {
+    /* Keep text color same as rest of page */
+    color: #3a4a3f;
+    /* Remove underline */
+    text-decoration: none;
+}
+
 /* Logo text */
 #logo {
+    /* Reduce size to keep on one line */
     font-size: 175%;
+    /* Change to uppercase */
+    text-transform: uppercase;
 }
 
 /* Navigation menu */
@@ -64,7 +75,7 @@ nav {
 /* List of page links */
 #nav-menu > li {
     /* Space out the options */
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 #nav-toggle:checked~nav {
