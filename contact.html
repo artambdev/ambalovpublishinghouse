@@ -41,9 +41,19 @@
 
     <main>
         <section id="contact-us">
-            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
                 <h2>Contact Us</h2>
                 <p>Interested in working with us, have any other questions, or have a query about one of our published books? Enter your details and be connected with our team.</p>
+                <div id="contact-text-inputs">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first_name" id="first-name" class="text-input" required>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last_name" id="last-name" class="text-input" required>
+                    <br>
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="email_address" id="email-address" class="text-input" required>
+                    <br>
+                </div>
             </form>
         </section>
     </main>
