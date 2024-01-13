@@ -29,7 +29,7 @@ header {
     width: 100%;
     /* Enable flexbox display for the navbar and logo*/
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -44,7 +44,7 @@ header a {
 /* Logo text */
 #logo {
     /* Reduce size to keep on one line */
-    font-size: 175%;
+    font-size: 125%;
     /* Change to uppercase */
     text-transform: uppercase;
 }
