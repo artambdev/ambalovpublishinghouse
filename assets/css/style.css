@@ -204,6 +204,36 @@ main {
     margin: 15px;
 }
 
+/* Publishing page */
+#publishing-text {
+    /* Green box */
+    background-color:#85ffb4;
+    min-height: 60px;
+    margin: 20px 10%;
+    /* Small border */
+    border-top: 2px solid #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
+    /* Arrange words in box */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/* Text within publishing header */
+#publishing-text h2 {
+    /* Increase word size */
+    font-size: 150%;
+    text-align: center;
+}
+
+/* Words within hero section */
+#hero-text h2 {
+    /* Increase word size */
+    font-size: 150%;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     /* Set background color */
