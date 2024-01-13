@@ -43,7 +43,15 @@ nav {
     /* Hide unless toggled */
     display: none;
     /* Stick to the bottom of the header */
-    top: 100%
+    top: 100%;
+    /* Stretch BG color to to left to match header*/
+    left: 0%;
+    padding: 0 1rem;
+}
+
+nav > ul {
+    /* remove bulletpoints */
+    list-style: none;
 }
 
 /* If toggled, show the nav menu */
