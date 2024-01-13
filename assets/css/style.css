@@ -397,6 +397,10 @@ main {
     justify-content: space-between;
 }
 
+.drama-cover {
+    background: url("../images/drama-cover.webp") no-repeat center center/contain;
+}
+
 .art-cover {
     background: url("../images/art-cover.webp") no-repeat center center/contain;
 }
