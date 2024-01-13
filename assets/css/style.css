@@ -397,6 +397,10 @@ main {
     justify-content: space-between;
 }
 
+.art-cover {
+    background: url("../images/art-cover.webp") no-repeat center center/contain;
+}
+
 /* Footer */
 footer {
     /* Set background color */

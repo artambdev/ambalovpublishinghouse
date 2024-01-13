@@ -43,3 +43,9 @@ Temp sources:
 Featured book cover:
 https://www.vecteezy.com/photo/21875238-dragon-black-and-white-ai-generated
 <a href="https://www.vecteezy.com/free-photos">Free Stock photos by Vecteezy</a>
+
+Art book cover:
+https://www.freepik.com/free-photo/abstract-colorful-splash-3d-background-generative-ai-background_40007572.htm#query=background&position=4&from_view=keyword&track=sph&uuid=0107c16f-62b9-4950-ba15-45499fe640bb
+
+Poetry book cover:
+https://www.freepik.com/free-photo/dark-room-with-light-background_24651472.htm#query=background&position=7&from_view=keyword&track=sph&uuid=0107c16f-62b9-4950-ba15-45499fe640bb
