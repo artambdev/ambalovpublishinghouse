@@ -162,6 +162,11 @@ main {
     margin-bottom: 15px;
 }
 
+#about-us i {
+    /* Add space between icon and header */
+    padding-right: 0.5rem;
+}
+
 #about-us p {
     /* Add spacing */
     margin: 15px;
@@ -182,9 +187,16 @@ main {
     margin-bottom: 15px;
 }
 
+/* Genre headers */
 .genre h4 {
-    text-align: left;
+    /* Push headers rightwards somewhat */
     padding-left: 2rem;
+}
+
+.genre i {
+    /* Make icons larger and space away from the text */
+    padding-left: 1rem;
+    font-size: 150%;
 }
 
 #genres p {
