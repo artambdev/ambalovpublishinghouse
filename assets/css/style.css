@@ -328,10 +328,18 @@ main {
 
 #featured-desc {
     flex-grow: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 #featured-desc p {
     margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* Order Now form */
+#featured-order-now {
+    align-items: center;
     margin-bottom: 20px;
 }
 
