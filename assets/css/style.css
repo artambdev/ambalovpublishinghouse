@@ -303,22 +303,31 @@ main {
     color:#fafafa;
 }
 
+/* Title of the featured book */
 #featured-books h3 {
     text-align: center;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
+/* Div containing two divs: the cover box, and description */
 #featured-content {
     /* Display the two child divs side-by-side */
     display: flex;
     flex-direction: row;
 }
 
+/* Div with the cover image */
 #featured-cover {
-    margin: 20px;
+    margin: 0 20px;
+    margin-bottom: 20px;
     height: 400px;
     width: 200px;
     background: url("../images/dragon-hunter-cover.webp") no-repeat center center/contain;
+}
+
+#featured-desc p {
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 /* Footer */
