@@ -314,15 +314,20 @@ main {
     /* Display the two child divs side-by-side */
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 /* Div with the cover image */
 #featured-cover {
     margin: 0 20px;
     margin-bottom: 20px;
-    height: 400px;
-    width: 200px;
+    height: 250px;
+    width: 125px;
     background: url("../images/dragon-hunter-cover.webp") no-repeat center center/contain;
+}
+
+#featured-desc {
+    flex-grow: 2;
 }
 
 #featured-desc p {
