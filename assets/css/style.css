@@ -420,8 +420,32 @@ main {
     justify-content: center;
 }
 
-#contact-us-form {
+#contact-form {
+    margin: 0 20px;
+}
+
+#contact-form h2 {
+    text-align: center;
     margin: 20px;
+}
+
+#contact-form p {
+    margin-bottom: 20px;
+}
+
+#contact-text-inputs {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.text-input-box {
+    width: 50%;
+}
+
+.text-input-box input {
+    width: 90%;
 }
 
 /* Footer */
