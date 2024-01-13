@@ -241,6 +241,36 @@ main {
     text-wrap: balance;
 }
 
+#publishing-steps {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Each step within the publishing process */
+.publishing-step {
+    padding: 15px;
+    width: 100%;
+    /* Green background */
+    background-color:#85ffb4;
+    /* Add bottom shadow */
+    box-shadow: 0 1px 2px #3a3a3a;
+}
+
+.publishing-step h3 {
+    margin-bottom: 0.5rem;
+}
+
+/* Override for right-aligned steps */
+.step-align-right {
+    /* Align text to right */
+    text-align: right;
+    /* Invisible background */
+    background-color: rgb(1,1,1,0);
+    /* Increase z-index to fix the shadow not appearing */
+    z-index: 6;
+}
+
 /* Footer */
 footer {
     /* Set background color */
