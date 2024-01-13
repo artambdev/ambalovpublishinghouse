@@ -296,6 +296,16 @@ main {
     text-align: center;
 }
 
+/* Featured books section */
+#featured-books {
+    /* Set inverted colors */
+    background-color: #3a4a3f;
+    color:#fafafa;
+    /* Display the two divs side-by-side */
+    display: flex;
+    flex-direction: row;
+}
+
 /* Footer */
 footer {
     /* Set background color */
