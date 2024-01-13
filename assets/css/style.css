@@ -33,6 +33,12 @@ header {
     justify-content: space-between;
 }
 
+/* Logo text */
+#logo {
+    font-size: 175%;
+}
+
+/* Navigation menu */
 nav {
     /* Fixed position */
     position: absolute;
@@ -49,19 +55,32 @@ nav {
     padding: 0 1rem;
 }
 
-nav > ul {
-    /* remove bulletpoints */
+#nav-menu {
+    /* Remove bulletpoints */
     list-style: none;
+    padding-top: 1rem;
 }
 
-/* If toggled, show the nav menu */
+/* List of page links */
+#nav-menu > li {
+    /* Space out the options */
+    margin-bottom: 1rem;
+}
+
 #nav-toggle:checked~nav {
+    /* If toggled, show the nav menu */
     display: block;
 }
 
-/* Remove the toggle button's checkbox */
+/* Toggle for nav menu */
 #nav-toggle {
+    /* Remove the toggle button's checkbox */
     display: none;
+}
+
+.nav-toggle-label {
+    /* Make the button bigger */
+    font-size: 2rem;
 }
 
 /* Main content */
