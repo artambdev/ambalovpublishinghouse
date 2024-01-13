@@ -138,6 +138,22 @@ main {
     text-align: center;
 }
 
+/* About Us section */
+#about-us {
+    background-color: #3a4a3f;
+    color:#fafafa;
+}
+
+#about-us h3 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#about-us p {
+    margin: 15px;
+}
+
 /* Footer */
 footer {
     /* Set background color */
