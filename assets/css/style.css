@@ -301,9 +301,24 @@ main {
     /* Set inverted colors */
     background-color: #3a4a3f;
     color:#fafafa;
-    /* Display the two divs side-by-side */
+}
+
+#featured-books h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#featured-content {
+    /* Display the two child divs side-by-side */
     display: flex;
     flex-direction: row;
+}
+
+#featured-cover {
+    margin: 20px;
+    height: 400px;
+    width: 200px;
+    background: url("../images/dragon-hunter-cover.webp") no-repeat center center/contain;
 }
 
 /* Footer */
