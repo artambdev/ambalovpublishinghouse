@@ -357,6 +357,46 @@ main {
     font-size: 100%;
 }
 
+.library-book {
+    margin-top: 20px;
+}
+
+/* Div with the cover image */
+.book-cover {
+    margin: 0 15px;
+    margin-bottom: 20px;
+    /* Set size */
+    height: 200px;
+    width: 100px;
+    background: url("../images/dragon-hunter-cover.webp") no-repeat center center/contain;
+}
+
+/* Title and description */
+.book-desc {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Book titles */
+.book-desc h3 {
+    left: 100%;
+    padding-left: 1rem;
+}
+
+/* Book descriptions */
+.book-desc p {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.book-content {
+    /* Display the two child divs side-by-side */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* Footer */
 footer {
     /* Set background color */
