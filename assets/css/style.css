@@ -405,6 +405,25 @@ main {
     background: url("../images/art-cover.webp") no-repeat center center/contain;
 }
 
+/* Contact Us page */
+#contact-us {
+    /* Green box */
+    background-color:#85ffb4;
+    margin: 20px 10%;
+    width: 80%;
+    /* Add bottom shadow */
+    box-shadow: 0 1px 2px #3a3a3a;
+    /* Arrange elements */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#contact-us-form {
+    margin: 20px;
+}
+
 /* Footer */
 footer {
     /* Set background color */
