@@ -150,9 +150,8 @@ main {
     /* Set inverted colors */
     background-color: #3a4a3f;
     color:#fafafa;
-    /* Border lines on top and bottom */
-    border-top: 2px solid #3a3a3a;
-    border-bottom: 2px solid #3a3a3a;
+    /* Add bottom shadow */
+    box-shadow: 0 1px 2px #3a3a3a;
 }
 
 #about-us h3 {
@@ -176,8 +175,10 @@ main {
 #genres {
     /* Set background color */
     background-color: #85ffb4;
-    /* Border line on bottom */
-    border-bottom: 2px solid #3a3a3a;
+    /* Border line on top */
+    border-top: 2px solid #3a3a3a;
+    /* Add bottom shadow */
+    box-shadow: 0 1px 2px #3a3a3a;
 }
 
 #genres > h3 {
