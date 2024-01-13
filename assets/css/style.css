@@ -33,6 +33,8 @@ header {
     /* Set background color */
     background-color: #85ffb4;
     padding: 0 1rem;
+    /* Border */
+    border-bottom: 2px solid #3a3a3a;
     /* Ensure it always covers the top of the screen */
     position: fixed;
     z-index: 100;
@@ -74,6 +76,8 @@ nav {
     /* Stretch BG color to to left to match header*/
     left: 0%;
     padding: 0 1rem;
+    /* Border */
+    border-bottom: 2px solid #3a3a3a;
 }
 
 #nav-menu {
@@ -124,6 +128,9 @@ main {
     background-color:#85ffb4;
     min-height: 100px;
     margin: 20px 10%;
+    /* Small border */
+    border-top: 2px solid #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
     /* Arrange words in box */
     display: flex;
     flex-direction: column;
@@ -140,17 +147,48 @@ main {
 
 /* About Us section */
 #about-us {
+    /* Set inverted colors */
     background-color: #3a4a3f;
     color:#fafafa;
+    /* Border lines on top and bottom */
+    border-top: 2px solid #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
 }
 
 #about-us h3 {
+    /* Add spacing to the heading */
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 #about-us p {
+    /* Add spacing */
+    margin: 15px;
+}
+
+/* Genres section */
+#genres {
+    /* Set background color */
+    background-color: #85ffb4;
+    /* Border line on bottom */
+    border-bottom: 2px solid #3a3a3a;
+}
+
+#genres > h3 {
+    /* Add spacing to the heading */
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.genre h4 {
+    text-align: left;
+    padding-left: 2rem;
+}
+
+#genres p {
+    /* Add spacing */
     margin: 15px;
 }
 
