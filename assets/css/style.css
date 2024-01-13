@@ -227,11 +227,18 @@ main {
     text-align: center;
 }
 
-/* Words within hero section */
-#hero-text h2 {
-    /* Increase word size */
-    font-size: 150%;
+/* "How do you get your book to your readers?" text div */
+#how {
+    width: 75%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#how h3 {
+    /* Keep centered and about square in shape */
     text-align: center;
+    text-wrap: balance;
 }
 
 /* Footer */
