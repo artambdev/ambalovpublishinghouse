@@ -272,6 +272,30 @@ main {
     z-index: 6;
 }
 
+/* Library page */
+#library-text {
+    /* Green box */
+    background-color:#85ffb4;
+    min-height: 60px;
+    margin: 20px 0;
+    width: 60%;
+    left: 100%;
+    /* Small border */
+    border-right: 2px solid #3a3a3a;
+    /* Arrange words in box */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/* Text within library header */
+#library-text h2 {
+    /* Increase word size */
+    font-size: 150%;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     /* Set background color */
