@@ -433,6 +433,7 @@ main {
     margin-bottom: 20px;
 }
 
+/* Text inputs - first name, last name, email */
 #contact-text-inputs {
     margin-bottom: 20px;
     display: flex;
@@ -445,7 +446,16 @@ main {
 }
 
 .text-input-box input {
+    /* Reduce input field width slightly to fit 2 on one row */
     width: 90%;
+}
+
+/* Radio buttons for type of contacter */
+#contact-radios {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 /* Footer */
