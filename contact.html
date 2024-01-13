@@ -54,6 +54,27 @@
                     <input type="email" name="email_address" id="email-address" class="text-input" required>
                     <br>
                 </div>
+                <h3>You are a...</h3>
+                <div id="contact-radios">
+                    <div>
+                        <label for="writer">Writer</label>
+                        <input type="radio" name="contact_type" value="writer" id="writer" required checked>
+                    </div>
+                    <div>
+                        <label for="customer">Customer</label>
+                        <input type="radio" name="contact_type" value="customer" id="customer" required>
+                    </div>
+                    <div>
+                        <label for="editor">Both</label>
+                        <input type="radio" name="contact_type" value="editor" id="editor" required>
+                    </div>
+                </div>
+                <br>
+                <h3>Enter a message:</h3>
+                <br>
+                <input type="text" name="contact_message" id="message" class="message" required>
+                <br>
+                <button type="submit" class="send-button">Send</button>
             </form>
         </section>
     </main>
