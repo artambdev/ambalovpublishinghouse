@@ -614,6 +614,27 @@ footer {
     }
 
     /* Home page */
+    #hero {
+        /* Align header to center */
+        display: flex;
+        justify-content: center;
+    }
+
+    #hero-text {
+        /* Green box */
+        min-height: 150px;
+        min-width: 400px;
+        margin: 20px 30%;
+        width: auto;
+        /* Larger border */
+        border-top: 3px solid #3a3a3a;
+        border-bottom: 3px solid #3a3a3a;
+    }
+
+    #hero-text h2 {
+        font-size: 250%;
+    }
+
     #about-us {
         /* Turn into a box */
         margin: 20px 20px 10% 5%;
@@ -647,6 +668,7 @@ footer {
 
     /* Library page */
     #library-header {
+        /* Align header to center */
         display: flex;
         justify-content: center;
     }
@@ -658,15 +680,10 @@ footer {
         margin: 20px 30%;
         width: auto;
         left: auto;
-        /* Small border */
+        /* Larger border */
         border-top: 3px solid #3a3a3a;
         border-bottom: 3px solid #3a3a3a;
         border-right: 0;
-        /* Arrange words in box */
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
     }
 
     #library-text h2 {
