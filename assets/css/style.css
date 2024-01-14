@@ -410,6 +410,7 @@ main {
     /* Green box */
     background-color:#85ffb4;
     margin: 20px 10%;
+    margin-bottom: 0;
     width: 80%;
     /* Add bottom shadow */
     box-shadow: 0 1px 2px #3a3a3a;
