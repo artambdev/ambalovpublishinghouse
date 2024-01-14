@@ -622,10 +622,10 @@ footer {
     /* Home page */
     #hero {
         background: url("../images/hero-image.webp") center center/cover;
+        border-bottom: 2px solid #3a3a3a;
         /* Align header to center */
         display: flex;
         justify-content: center;
-        border-bottom: 2px solid #3a3a3a;
     }
 
     #hero-text {
@@ -657,6 +657,8 @@ footer {
 
     /* Publishing page */
     #publishing-header {
+        background: url("../images/hero-image.webp") center center/cover;
+        border-bottom: 2px solid #3a3a3a;
         /* Align header to center */
         display: flex;
         justify-content: center;
@@ -698,6 +700,8 @@ footer {
 
     /* Library page */
     #library-header {
+        background: url("../images/hero-image.webp") center center/cover;
+        border-bottom: 2px solid #3a3a3a;
         /* Align header to center */
         display: flex;
         justify-content: center;
@@ -732,6 +736,8 @@ footer {
 
     /* Contact page */
     #contact-header {
+        background: url("../images/hero-image.webp") center center/cover;
+        border-bottom: 2px solid #3a3a3a;
         /* Align header to center */
         display: flex;
         justify-content: center;
