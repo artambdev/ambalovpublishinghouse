@@ -788,7 +788,7 @@ footer {
 
     #alt-contact {
         max-width: 900px;
-        margin-top: 20px;
+        margin: 20px 0;
         /* Enable flex properties for any child elements */
         display: flex;
         flex-direction: column;
