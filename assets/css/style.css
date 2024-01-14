@@ -414,6 +414,10 @@ main {
 }
 
 /* Contact Us page */
+#contact-header {
+    display: none;
+}
+
 #contact-us {
     /* Green box */
     background-color:#85ffb4;
@@ -719,5 +723,36 @@ footer {
     #other-books {
         margin-right: 5%;
         margin-bottom: 5%;
+    }
+
+    /* Contact page */
+    #contact-header {
+        /* Align header to center */
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Typically hidden, so match with other headers */
+    #contact-text {
+        /* Green box */
+        background-color:#85ffb4;
+        min-height: 150px;
+        min-width: 400px;
+        margin: 20px 30%;
+        width: auto;
+        /* Larger border */
+        border-top: 3px solid #3a3a3a;
+        border-bottom: 3px solid #3a3a3a;
+        /* Arrange words in box */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    #contact-text h2 {
+        /* Match the other headers */
+        font-size: 250%;
+        text-align: center;
     }
 }
