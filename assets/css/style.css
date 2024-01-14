@@ -511,6 +511,17 @@ main {
     margin: 10px 0;
 }
 
+/* Google Maps embed */
+#map-section {
+    margin: 20px 0;
+}
+
+/* Google map iframe */
+#map {
+    height: 512px;
+    width: 100vw;
+}
+
 /* Footer */
 footer {
     /* Set background color */
