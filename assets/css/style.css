@@ -518,6 +518,9 @@ main {
 
 /* Google map iframe */
 #map {
+    border: 0;
+    border-top: 1px solid #3a4a3f;
+    border-bottom: 1px solid #3a4a3f;
     height: 512px;
     width: 100vw;
 }
