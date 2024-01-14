@@ -448,6 +448,11 @@ main {
 .text-input-box input {
     /* Reduce input field width slightly to fit 2 on one row */
     width: 90%;
+    padding: 2px 4px;
+    /* Style appearance */
+    background-color: #fafafa;
+    color:#3a3a3a;
+    border: 1px solid #3a4a3f;
 }
 
 /* Radio buttons for type of contacter */
@@ -462,6 +467,12 @@ main {
 #message {
     /* Increase size  */
     height: 4rem;
+    padding: 2px 4px;
+    margin-top: 10px;
+    /* Style appearance */
+    background-color: #fafafa;
+    color:#3a3a3a;
+    border: 1px solid #3a4a3f;
 }
 
 #send-button {
