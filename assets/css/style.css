@@ -785,4 +785,20 @@ footer {
     #contact-form div {
         flex-basis: 45%;
     }
+
+    #alt-contact {
+        max-width: 900px;
+        margin-top: 20px;
+        /* Enable flex properties for any child elements */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Google Maps embed */
+    #map {
+        border: 2px solid #3a4a3f;
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
 }
