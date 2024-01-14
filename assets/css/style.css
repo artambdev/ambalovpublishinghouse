@@ -12,6 +12,8 @@
 
 /* General styles for entire page*/
 body {
+    /* Set off-white background */
+    background-color: #fafafa;
     /* Take up the entire page */
     min-height: 100vh;
     /* Enable flexbox display on all children */
@@ -613,28 +615,44 @@ footer {
 
     /* Home page */
     #about-us {
+        /* Turn into a box */
         margin: 20px 20px 10% 5%;
     }
 
     #genres {
         background-color: #fafafa;
         margin-right: 5%;
+        margin-bottom: 5%;
     }
 
     /* Publishing page */
     #publishing-steps {
+        /* Take up full width of page */
         flex-basis: 100%;
     }
 
     .publishing-step {
+        /* Shorter, but still overlap */
         max-width: 60%;
     }
 
     .publishing-step h3, .publishing-step p {
+        /* Bring text closer together so it's easier to read */
         text-align: center;
     }
 
     .step-align-right {
         align-self: flex-end;
+    }
+
+    /* Library page */
+    #featured-books {
+        /* Turn into a box */
+        margin: 20px 20px 10% 5%;
+    }
+
+    #other-books {
+        margin-right: 5%;
+        margin-bottom: 5%;
     }
 }
