@@ -647,6 +647,27 @@ footer {
     }
 
     /* Publishing page */
+    #publishing-header {
+        /* Align header to center */
+        display: flex;
+        justify-content: center;
+    }
+
+    #publishing-text {
+        /* Green box */
+        min-height: 150px;
+        min-width: 400px;
+        margin: 20px 30%;
+        width: auto;
+        /* Larger border */
+        border-top: 3px solid #3a3a3a;
+        border-bottom: 3px solid #3a3a3a;
+    }
+
+    #publishing-text h2 {
+        font-size: 250%;
+    }
+
     #publishing-steps {
         /* Take up full width of page */
         flex-basis: 100%;
