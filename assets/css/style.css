@@ -492,6 +492,24 @@ main {
     align-self: center;
 }
 
+/* Alternative contact methods section */
+#alt-contact {
+    background: url("../images/alt-contact-image.webp") no-repeat center center/cover;
+}
+
+#alt-contact div {
+    /* Invert colors */
+    color: #fafafa;
+    background-color: #3a4a3fd2;
+    margin: 20px;
+    padding: 10px;
+}
+
+#alt-contact div * {
+    text-align: center;
+    margin: 10px 0;
+}
+
 /* Footer */
 footer {
     /* Set background color */

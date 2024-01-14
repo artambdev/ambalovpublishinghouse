@@ -49,3 +49,6 @@ https://www.freepik.com/free-photo/abstract-colorful-splash-3d-background-genera
 
 Poetry book cover:
 https://www.freepik.com/free-photo/dark-room-with-light-background_24651472.htm#query=background&position=7&from_view=keyword&track=sph&uuid=0107c16f-62b9-4950-ba15-45499fe640bb
+
+Alternative contact background:
+https://www.freepik.com/free-vector/beautiful-book-club-pattern-illustration_24022531.htm#query=book%20background&position=0&from_view=keyword&track=ais&uuid=bb63777c-ad49-4972-a736-27e633d0b2b1
