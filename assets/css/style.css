@@ -646,6 +646,33 @@ footer {
     }
 
     /* Library page */
+    #library-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #library-text {
+        /* Green box */
+        min-height: 150px;
+        min-width: 400px;
+        margin: 20px 30%;
+        width: auto;
+        left: auto;
+        /* Small border */
+        border-top: 3px solid #3a3a3a;
+        border-bottom: 3px solid #3a3a3a;
+        border-right: 0;
+        /* Arrange words in box */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    #library-text h2 {
+        font-size: 250%;
+    }
+
     #featured-books {
         /* Turn into a box */
         margin: 20px 20px 10% 5%;
