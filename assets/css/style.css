@@ -585,16 +585,18 @@ footer {
 
     #nav-menu {
         /* Change padding to be equal on top and bottom */
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-top: 0;
+        padding-bottom: 0;
         border-left: 2px solid #3a4a3f;
         /* Display horizontally */
         display: flex;
         align-items: center;
+        
     }
 
     #nav-menu > li {
-        padding: 0 1rem;
+        /* Change padding to be equal on top and bottom */
+        padding: 0.5rem 1rem;
         border-right: 1px solid #3a4a3f;
     }
 
@@ -795,10 +797,36 @@ footer {
         align-items: center;
     }
 
+    /* "Enter a message" field */
+    #message {
+        /* Increase size  */
+        width: 300px;
+    }
+
     /* Google Maps embed */
     #map {
         border: 2px solid #3a4a3f;
         max-width: 90%;
         margin-bottom: 20px;
+    }
+}
+
+/* Laptops and larger */
+@media screen and (min-width: 992px) {
+    /* Add color change when buttons are hovered */
+    #nav-menu > li:hover {
+        background-color: #fafafa;
+    }
+
+    #featured-order-now button:hover {
+        /* Inverted colors */
+        background-color: #3a4a3f;
+        color: #fafafa;
+    }
+
+    #send-button:hover {
+        /* Uninverted colors */
+        background-color: #fafafa;
+        color: #3a4a3f;
     }
 }
