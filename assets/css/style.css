@@ -620,4 +620,21 @@ footer {
         background-color: #fafafa;
         margin-right: 5%;
     }
+
+    /* Publishing page */
+    #publishing-steps {
+        flex-basis: 100%;
+    }
+
+    .publishing-step {
+        max-width: 60%;
+    }
+
+    .publishing-step h3, .publishing-step p {
+        text-align: center;
+    }
+
+    .step-align-right {
+        align-self: flex-end;
+    }
 }
