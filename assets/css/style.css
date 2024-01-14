@@ -452,10 +452,16 @@ main {
 
 /* Radio buttons for type of contacter */
 #contact-radios {
-    margin-top: 20px;
+    margin: 20px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+/* "Enter a message" field */
+#message {
+    /* Increase size  */
+    height: 4rem;
 }
 
 #send-button {
