@@ -122,6 +122,12 @@ main {
     flex-direction: column;
 }
 
+.below-heading {
+   /* Enable flex properties for any child elements */
+   display: flex;
+   flex-direction: column;     
+}
+
 /* Home page */
 #hero-text {
     /* Green box */
@@ -557,6 +563,10 @@ footer {
 /* Media query: tablets and larger (768px)*/
 @media screen and (min-width: 768px) {
     /* Header */
+    #logo {
+        text-align: center;
+    }
+
     nav {
         /* Always display, not toggled */
         display: block;
@@ -590,5 +600,10 @@ footer {
     main {
         /* Push down further to accomodate larger header*/
         margin-top: 76px;
+    }
+
+    .below-heading {
+        /* Display side-by-side */
+        flex-direction: row;
     }
 }
