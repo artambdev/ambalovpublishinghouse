@@ -750,6 +750,13 @@ footer {
         justify-content: center;
     }
 
+    #below-contact-heading {
+        /* Enable flex properties for any child elements */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #contact-text h2 {
         /* Match the other headers */
         font-size: 250%;
@@ -759,6 +766,8 @@ footer {
     /* Add padding for when the form's header is removed */
     #contact-us {
         padding-top: 20px;
+        /* Cut down the width */
+        max-width: 800px;
     }
 
     /* Remove this header, it's unnecessary with the massive header added */
@@ -767,11 +776,13 @@ footer {
     }
 
     #contact-form {
+        /* Display the two halves side by side */
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
     }
 
     #contact-form div {
-        flex-basis: 50%;
+        flex-basis: 45%;
     }
 }

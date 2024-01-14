@@ -46,66 +46,69 @@
                 <h2>Contact Us</h2>
             </div>
         </section>
-        <!-- Contact form -->
-        <section id="contact-us">
-            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2>Contact Us</h2>
-                <!-- On tablets or larger, this is the left side -->
-                <div>
-                    <p>Interested in working with us, have any other questions, or have a query about one of our published books? Enter your details and be connected with our team.</p>
-                    <div id="contact-text-inputs">
-                        <div class="text-input-box">
-                            <label for="first-name">First Name</label>
-                            <input type="text" name="first_name" id="first-name" class="text-input" required>
-                        </div>
-                        <div class="text-input-box">
-                            <label for="last-name">Last Name</label>
-                            <input type="text" name="last_name" id="last-name" class="text-input" required>
-                        </div>
-                        <div class="text-input-box">
-                            <label for="email-address">Email Address</label>
-                            <input type="email" name="email_address" id="email-address" class="text-input" required>
-                        </div>
-                    </div>
-                </div>
-                <!-- On tablets or larger, this is the right side -->
-                <div>
-                    <h3>You are a...</h3>
-                    <div id="contact-radios">
-                        <div>
-                            <label for="writer">Writer</label>
-                            <input type="radio" name="contact_type" value="writer" id="writer" required checked>
-                        </div>
-                        <div>
-                            <label for="customer">Customer</label>
-                            <input type="radio" name="contact_type" value="customer" id="customer" required>
-                        </div>
-                        <div>
-                            <label for="editor">Editor</label>
-                            <input type="radio" name="contact_type" value="editor" id="editor" required>
+        <!-- Div to arrange elements nicely -->
+        <div id="below-contact-heading">
+            <!-- Contact form -->
+            <section id="contact-us">
+                <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+                    <h2>Contact Us</h2>
+                    <!-- On tablets or larger, this is the left side -->
+                    <div>
+                        <p>Interested in working with us, have any other questions, or have a query about one of our published books? Enter your details and be connected with our team.</p>
+                        <div id="contact-text-inputs">
+                            <div class="text-input-box">
+                                <label for="first-name">First Name</label>
+                                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                            </div>
+                            <div class="text-input-box">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                            </div>
+                            <div class="text-input-box">
+                                <label for="email-address">Email Address</label>
+                                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                            </div>
                         </div>
                     </div>
-                    <br>
-                    <h3>Enter a message:</h3>
-                    <br>
-                    <textarea name="contact_message" id="message" class="message" required></textarea>
-                    <br>
-                    <button type="submit" id="send-button">Send</button>
+                    <!-- On tablets or larger, this is the right side -->
+                    <div>
+                        <h3>You are a...</h3>
+                        <div id="contact-radios">
+                            <div>
+                                <label for="writer">Writer</label>
+                                <input type="radio" name="contact_type" value="writer" id="writer" required checked>
+                            </div>
+                            <div>
+                                <label for="customer">Customer</label>
+                                <input type="radio" name="contact_type" value="customer" id="customer" required>
+                            </div>
+                            <div>
+                                <label for="editor">Editor</label>
+                                <input type="radio" name="contact_type" value="editor" id="editor" required>
+                            </div>
+                        </div>
+                        <br>
+                        <h3>Enter a message:</h3>
+                        <br>
+                        <textarea name="contact_message" id="message" class="message" required></textarea>
+                        <br>
+                        <button type="submit" id="send-button">Send</button>
+                    </div>
+                </form>
+            </section>
+            <!-- Box with phone, email, map -->
+            <section id="alt-contact">
+                <div>
+                    <h2>Alternatively, contact us by:</h2>
+                    <h3>Phone:</h3>
+                    <p>028 123 4567</p>
+                    <h3>Email:</h3>
+                    <p><a>sales@ambalovpublishing.ie</a></p>
+                    <h3>Or write to our office:</h3>
                 </div>
-            </form>
-        </section>
-        <!-- Box with phone, email, map -->
-        <section id="alt-contact">
-            <div>
-                <h2>Alternatively, contact us by:</h2>
-                <h3>Phone:</h3>
-                <p>028 123 4567</p>
-                <h3>Email:</h3>
-                <p><a>sales@ambalovpublishing.ie</a></p>
-                <h3>Or write to our office:</h3>
-            </div>
-            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9534.971301698446!2d-6.275341!3d53.3120519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670bf7fc6d2615%3A0x8ee0634b56bed08f!2sThe%20O&#39;Brien%20Press%20Ltd!5e0!3m2!1sen!2sie!4v1705245042297!5m2!1sen!2sie" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9534.971301698446!2d-6.275341!3d53.3120519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670bf7fc6d2615%3A0x8ee0634b56bed08f!2sThe%20O&#39;Brien%20Press%20Ltd!5e0!3m2!1sen!2sie!4v1705245042297!5m2!1sen!2sie" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </div>
     </main>
 
     <!-- Page footer -->
