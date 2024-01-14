@@ -756,11 +756,22 @@ footer {
         text-align: center;
     }
 
+    /* Add padding for when the form's header is removed */
     #contact-us {
         padding-top: 20px;
     }
 
+    /* Remove this header, it's unnecessary with the massive header added */
     #contact-us h2 {
         display: none;
+    }
+
+    #contact-form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #contact-form div {
+        flex-basis: 50%;
     }
 }
