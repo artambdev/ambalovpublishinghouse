@@ -553,3 +553,27 @@ footer {
     /* Disable default anchor coloration */
     color: #3a4a3f;
 }
+
+/* Media query: tablets and larger (768px)*/
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        /* Always display, not toggled */
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        border-bottom: 0;
+    }
+
+    #nav-menu {
+        /* Display horizontally */
+        display: flex;
+        justify-content: center;
+    }
+
+    #nav-menu > li {
+        padding: 0 1rem;
+    }
+}
