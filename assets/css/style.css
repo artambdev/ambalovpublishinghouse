@@ -606,4 +606,18 @@ footer {
         /* Display side-by-side */
         flex-direction: row;
     }
+
+    .below-heading section {
+        flex-basis: 50%;
+    }
+
+    /* Home page */
+    #about-us {
+        margin: 20px 20px 10% 5%;
+    }
+
+    #genres {
+        background-color: #fafafa;
+        margin-right: 5%;
+    }
 }
