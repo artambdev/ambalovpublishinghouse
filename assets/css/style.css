@@ -519,6 +519,7 @@ main {
     padding: 10px;
 }
 
+/* All elements within the alt-contact div */
 #alt-contact div * {
     text-align: center;
     margin: 10px 0;
@@ -574,16 +575,19 @@ footer {
         text-align: center;
     }
 
+    /* Nav menu */
     nav {
         /* Always display, not toggled */
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        /* Remove right padding, and the bottom border */
+        padding-right: 0;
         border-bottom: 0;
     }
 
+    /* Actual list of nav menu */
     #nav-menu {
         /* Change padding to be equal on top and bottom */
         padding-top: 0;
