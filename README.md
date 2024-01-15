@@ -127,6 +127,9 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 <details><summary>Contact Us</summary>
 <img src="docs/validation/lighthouse/lighthouse-contact.png">
 </details>
+<details><summary>404 page</summary>
+<img src="docs/validation/lighthouse/lighthouse-404.png">
+</details>
 
 ## Deployment
 
