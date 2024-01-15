@@ -548,8 +548,9 @@ main {
 }
 
 /* 404 page */
-#404-header {
+#null-page-header {
     margin-top: 20px;
+    text-align: center;
     /* Display children centered */
     display: flex;
     flex-direction: column;
