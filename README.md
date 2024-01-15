@@ -55,3 +55,12 @@ https://www.freepik.com/free-vector/beautiful-book-club-pattern-illustration_240
 
 Homepage hero image:
 https://www.freepik.com/free-vector/books-seamless-pattern-doodle-outline-textbooks_21957290.htm#query=book%20background&position=1&from_view=keyword&track=ais&uuid=e7e2405d-6d8d-4ec5-9b85-63100ca3e73b
+
+
+todo:
+add 404 page
+make sure no commented out code, add comments
+html validate by URL
+CSS validate by file
+accessibility validate all pages
+lighthouse validate all pages
