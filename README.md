@@ -3,9 +3,71 @@
 # Ambalov Publishing House
 - developed by Arthur Ambalov
 
+![Image of website on different sized screens](docs/am-i-responsive.png)
+
 [Link to live webpage](https://artambdev.github.io/ambalovpublishinghouse/)
 
+## Features
 
+The website has 5 pages and X features across them.
+
+### Pages
+The five pages are:
+- A homepage that users to the site are automatically brought to, and which contains information about the publishing house's work
+- A "Get Published" page that instructs prospective writers and editors on the publishing process
+- An "Our Library" page that displays some of the books published by the publisher, and highlights a featured book in particular
+- A "Contact Us" page with a form to submit a request for contact with the user's information, and also provides information on the publisher's phone number, email and office location
+- A custom 404 page that users are brought to when sent to an invalid page on the website, which provides a link back to the homepage and allows them to use the navigation menu to travel to any page
+
+### Navigation menu
+- The navigation menu is visible as a bar that is always at the top of the screen, and can be found on all 5 pages. It also features the company logo.
+- On mobile, the menu is hidden until the user presses on the burger icon to toggle it, where it appears below the bar. The logo appears on the right side
+- On tablets or larger screens, the menu is always visible at the right side of the bar, and the logo appears at the left.
+- On laptops or larger screens, buttons highlight when hovered with the mouse.
+
+### Footer
+- The footer is visible as a bar with four icons at the bottom of every page. The icons present links to relevant contact information and important external websites.
+- The phone and email icons both lead to the Contact Us page.
+- The X icon leads to the X website (formerly known as Twitter).
+- The Amazon icon leads to Amazon as expected.
+
+### About Us section
+- The About Us section displays a brief summary of the publisher's work and quality standards.
+
+### Genres section
+- A list of genres published by the company is presented for authors and readers to know what works they can get published or read respectively.
+
+### Publishing Steps section
+- This area on the Get Published page outlines the most important steps towards getting published by the company.
+
+### Featured Book section
+- This area highlights an especially popular book published by the company. It features the title, cover, a brief description and a quote from a reviewer, alongside a button leading to the Amazon page to buy the book.
+
+### Other Books section
+- This area highlights a few other notable books in lesser detail, in this case an art history book and a drama book.
+
+### Contact form
+- This form allows a user to submit a request for an e-mail from the company, with options to do so as a prospective writer, a questioning reader or an editor-for-hire. A longer-form message is required alongside the request.
+
+### Alternative contact information
+- This section notes the company's phone number and e-mail address for those who wish to contact them. The footer links directly to this section.
+
+### Map
+- An embedded interaction map from Google Maps shows the company's offices in Dublin.
+
+## Validation
+
+### HTML
+All pages on the site are validated with the W3C's Markup Validation Service and show no errors or warnings. See each page below:
+
+### CSS
+The CSS style used by the site is valided with the W3C's CSS Validation Service, and shows no errors. One warning is presented for the external stylesheet of Google Fonts which cannot be checked. See below:
+
+### Accessibility
+All pages on the site are checked with the WAVE Website Accessibility Evaluation Tool, and show no errors. See each page below:
+
+### Performance
+Google Chrome's Lighthouse feature is used to check every page for performance issues, and each returns a high score in all categories. See each page's result below:
 
 
 Welcome,

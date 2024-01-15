@@ -189,6 +189,7 @@ main {
     box-shadow: 0 1px 2px #3a3a3a;
 }
 
+/* Genre section's heading */
 #genres > h3 {
     /* Add spacing to the heading */
     text-align: center;
@@ -202,12 +203,14 @@ main {
     padding-left: 2rem;
 }
 
+/* Icons of each heading in the genre section */
 .genre i {
     /* Make icons larger and space away from the text */
     padding-left: 1rem;
     font-size: 150%;
 }
 
+/* Text within genre section */
 #genres p {
     /* Add spacing */
     margin: 15px;
@@ -244,12 +247,13 @@ main {
     margin-right: auto;
 }
 
+/* The text of the above div */
 #how h3 {
-    /* Keep centered and about square in shape */
+    /* Keep centered */
     text-align: center;
-    text-wrap: balance;
 }
 
+/* Container for all of the publishing steps */
 #publishing-steps {
     margin-top: 20px;
     display: flex;
