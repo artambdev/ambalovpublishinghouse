@@ -730,8 +730,14 @@ footer {
     }
 
     #other-books {
-        margin-right: 5%;
-        margin-bottom: 5%;
+        /* Change to a box ala the large-screen version of the index's Genres box */
+        background-color: #fafafa;
+        /* Border line on top */
+        border-top: 2px solid #3a3a3a;
+        /* Add bottom shadow */
+        box-shadow: 0 1px 2px #3a3a3a;
+
+        margin: 20px 5%;
     }
 
     /* Contact page */
