@@ -1,5 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 # Ambalov Publishing House
 - developed by Arthur Ambalov
 
@@ -65,10 +63,33 @@ The CSS style used by the site is valided with the W3C's CSS Validation Service,
 
 ### Accessibility
 All pages on the site are checked with the WAVE Website Accessibility Evaluation Tool, and show no errors. See each page below:
+<details><summary>Homepage</summary>
+<img src="docs/validation/wave/wave-index.png">
+</details>
+<details><summary>Get Published</summary>
+<img src="docs/validation/wave/wave-publishing.png">
+</details>
+<details><summary>Our Library</summary>
+<img src="docs/validation/wave/wave-library.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="docs/validation/wave/wave-contact.png">
+</details>
 
 ### Performance
 Google Chrome's Lighthouse feature is used to check every page for performance issues, and each returns a high score in all categories. See each page's result below:
-
+<details><summary>Homepage</summary>
+<img src="docs/validation/lighthouse/lighthouse-index.png">
+</details>
+<details><summary>Get Published</summary>
+<img src="docs/validation/lighthouse/lighthouse-publishing.png">
+</details>
+<details><summary>Our Library</summary>
+<img src="docs/validation/lighthouse/lighthouse-library.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="docs/validation/lighthouse/lighthouse-contact.png">
+</details>
 
 Welcome,
 
