@@ -450,7 +450,7 @@ main {
     margin-bottom: 20px;
 }
 
-/* Text inputs - first name, last name, email */
+/* Contains text inputs' containers - first name, last name, email */
 #contact-text-inputs {
     margin-bottom: 20px;
     display: flex;
@@ -458,10 +458,12 @@ main {
     flex-wrap: wrap;
 }
 
+/* Contains the text input and its label */
 .text-input-box {
     width: 50%;
 }
 
+/* Actual text inputs */
 .text-input-box input {
     /* Reduce input field width slightly to fit 2 on one row */
     width: 90%;
@@ -493,6 +495,7 @@ main {
     border: 1px solid #3a4a3f;
 }
 
+/* Button to submit form */
 #send-button {
     /* Give some room to breathe */
     margin: 20px 0;
@@ -515,6 +518,7 @@ main {
     background: url("../images/alt-contact-image.webp") no-repeat center center/cover;
 }
 
+/* Div containing the text elements of this section */
 #alt-contact div {
     /* Invert colors */
     color: #fafafa;
@@ -541,6 +545,15 @@ main {
     border-bottom: 1px solid #3a4a3f;
     height: 512px;
     width: 100vw;
+}
+
+/* 404 page */
+#404-header {
+    margin-top: 20px;
+    /* Display children centered */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Footer */
@@ -609,7 +622,9 @@ footer {
         border-right: 1px solid #3a4a3f;
     }
 
+    /* Nav toggle */
     .nav-toggle-label {
+        /* Don't need this, hide it */
         display: none;
     }
 
@@ -619,12 +634,15 @@ footer {
         margin-top: 76px;
     }
 
+    /* Div that contains all of the page's sections below the heading/hero section */
     .below-heading {
         /* Display side-by-side */
         flex-direction: row;
     }
 
+    /* Sections below the page's heading */
     .below-heading section {
+        /* Divide page in half */
         flex-basis: 50%;
     }
 
@@ -637,6 +655,7 @@ footer {
         justify-content: center;
     }
 
+    /* Text of the hero section */
     #hero-text {
         /* Green box */
         min-height: 150px;
@@ -648,16 +667,21 @@ footer {
         border-bottom: 3px solid #3a3a3a;
     }
 
+    /* Company logo */
     #hero-text h2 {
+        /* Bigger to fit the larger screen */
         font-size: 250%;
     }
 
+    /* About Us section */
     #about-us {
         /* Turn into a box */
         margin: 20px 20px 10% 5%;
     }
 
+    /* Genres section */
     #genres {
+        /* Turn into a white box instead */
         background-color: #fafafa;
         margin-top: 5px;
         margin-right: 5%;
@@ -716,6 +740,7 @@ footer {
         justify-content: center;
     }
 
+    /* Text container of the hero section */
     #library-text {
         /* Green box */
         min-height: 150px;
@@ -729,15 +754,19 @@ footer {
         border-right: 0;
     }
 
+    /* Hero text */
     #library-text h2 {
+        /* More space, so make it bigger to fit */
         font-size: 250%;
     }
 
+    /* Featured Book section */
     #featured-books {
         /* Turn into a box */
         margin: 20px 20px 10% 5%;
     }
 
+    /* Other displayed books */
     #other-books {
         /* Change to a box ala the large-screen version of the index's Genres box */
         background-color: #fafafa;
@@ -776,6 +805,7 @@ footer {
         justify-content: center;
     }
 
+    /* Sub-heading content of contact page */
     #below-contact-heading {
         /* Enable flex properties for any child elements */
         display: flex;
@@ -783,6 +813,7 @@ footer {
         align-items: center;
     }
 
+    /* Heading text of contact page */
     #contact-text h2 {
         /* Match the other headers */
         font-size: 250%;
@@ -801,17 +832,26 @@ footer {
         display: none;
     }
 
+    /* Contact Us form */
     #contact-form {
-        /* Display the two halves side by side */
+        /* Display children side by side */
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
 
+    /* Make the two halves of the form small so they display side by side */
     #contact-form div {
         flex-basis: 45%;
     }
 
+    /* "Enter a message" field */
+    #message {
+        /* Increase size  */
+        width: 300px;
+    }
+
+    /* Alternative contact means section */
     #alt-contact {
         max-width: 900px;
         margin: 20px 0;
@@ -819,12 +859,6 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    /* "Enter a message" field */
-    #message {
-        /* Increase size  */
-        width: 300px;
     }
 
     /* Google Maps embed */
