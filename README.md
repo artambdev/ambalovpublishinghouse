@@ -70,9 +70,30 @@ The five pages are:
 
 ### HTML
 All pages on the site are validated with the W3C's Markup Validation Service and show no errors or warnings. See each page below:
+<details><summary>Homepage</summary>
+<img src="docs/validation/html/html-index.png">
+</details>
+<details><summary>Get Published</summary>
+<img src="docs/validation/html/html-publishing.png">
+</details>
+<details><summary>Our Library</summary>
+<img src="docs/validation/html/html-library.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="docs/validation/html/html-contact.png">
+</details>
+<details><summary>404 page</summary>
+<img src="docs/validation/html/html-404.png">
+</details>
 
 ### CSS
 The CSS style used by the site is valided with the W3C's CSS Validation Service, and shows no errors. One warning is presented for the external stylesheet of Google Fonts which cannot be checked. See below:
+<details><summary>No errors</summary>
+<img src="docs/validation/css/css.png">
+</details>
+<details><summary>Warning</summary>
+<img src="docs/validation/css/css-warning.png">
+</details>
 
 ### Accessibility
 All pages on the site are checked with the WAVE Website Accessibility Evaluation Tool, and show no errors. See each page below:
@@ -87,6 +108,9 @@ All pages on the site are checked with the WAVE Website Accessibility Evaluation
 </details>
 <details><summary>Contact Us</summary>
 <img src="docs/validation/wave/wave-contact.png">
+</details>
+<details><summary>404 page</summary>
+<img src="docs/validation/wave/wave-404.png">
 </details>
 
 ### Performance
