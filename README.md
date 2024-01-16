@@ -5,7 +5,28 @@
 
 [Link to live webpage](https://artambdev.github.io/ambalovpublishinghouse/)
 
+## User Stories
 
+### User: Writer
+- 1. As a writer, I want to get a feel of how the publisher presents itself
+- 2. As a writer, I want to know the genres of books published by the company
+- 3. As a writer, I want to know what process a writer goes through to get published
+- 4. As a writer, I want to see how the company will promote my works
+- 5. As a writer, I want to find a phone number or e-mail to discuss working with them
+- 6. As a writer, I want to find the publisher's address so I can send a physical manuscript
+
+### User: Reader
+- 7. As a reader, I want to see if the company publishes books in a genre I enjoy
+- 8. As a reader, I want to read about the books that the company has published
+- 9. As a reader, I want to easily contact the company to ask about a book it has published
+- 10. As a reader, I want to shop for the publisher's books online
+- 11. As a reader, I want to find the publisher's social media page
+
+### User: Editor
+- 12. As an editor, I want to see where editors are involved in the publishing process
+- 13. As an editor, I want to see the company's history of successful publishing
+- 14. As an editor, I want to see where the company is based
+- 15. As an editor, I want to find an e-mail address to send a resume to
 
 ## Features
 
@@ -33,38 +54,47 @@ The five pages are:
 - The phone and email icons both lead to the Contact Us page.
 - The X icon leads to the X website (formerly known as Twitter).
 - The Amazon icon leads to Amazon as expected.
+- This covers user stories 5, 10, 11 and 15.
 
 ### About Us section
 ![Image of the About Us section](docs/features/about-us.png)
 - The About Us section displays a brief summary of the publisher's work and quality standards.
+- This covers user story 1.
 
 ### Genres section
 ![Image of the Genres section](docs/features/genres.png)
 - A list of genres published by the company is presented for authors and readers to know what works they can get published or read respectively.
+- This covers user stories 2 and 7.
 
 ### Publishing Steps section
 ![Image of the Publishing Steps section](docs/features/publishing-steps.png)
 - This area on the Get Published page outlines the most important steps towards getting published by the company.
+- This covers user stories 3 and 12.
 
 ### Featured Book section
 ![Image of the featured book](docs/features/featured-book.png)
 - This area highlights an especially popular book published by the company. It features the title, cover, a brief description and a quote from a reviewer, alongside a button leading to the Amazon page to buy the book.
+- This covers user stories 4, 8, 10 and 13.
 
 ### Other Books section
 ![Image of the other displayed books](docs/features/other-books.png)
 - This area highlights a few other notable books in lesser detail, in this case an art history book and a drama book.
+- This covers user stories 4, 8 and 13.
 
 ### Contact form
 ![Image of the contact form](docs/features/contact-form.png)
 - This form allows a user to submit a request for an e-mail from the company, with options to do so as a prospective writer, a questioning reader or an editor-for-hire. A longer-form message is required alongside the request.
+- This covers user stories 9.
 
 ### Alternative contact information
 ![Image of the alternative contact information section](docs/features/alt-contact.png)
 - This section notes the company's phone number and e-mail address for those who wish to contact them. The footer links directly to this section.
+- This covers user stories 5 and 15.
 
 ### Map
 ![Image of the embedded Google Map](docs/features/map.png)
 - An embedded interaction map from Google Maps shows the company's offices in Dublin.
+- This covers user stories 6 and 14.
 
 ## Validation
 
@@ -130,6 +160,122 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 <details><summary>404 page</summary>
 <img src="docs/validation/lighthouse/lighthouse-404.png">
 </details>
+
+### User Stories
+
+- 2. As a writer, I want to know the genres of books published by the company
+- 3. As a writer, I want to know what process a writer goes through to get published
+- 4. As a writer, I want to see how the company will promote my works
+- 5. As a writer, I want to find a phone number or e-mail to discuss working with them
+- 6. As a writer, I want to find the publisher's address so I can send a physical manuscript
+
+### User: Reader
+- 7. As a reader, I want to see if the company publishes books in a genre I enjoy
+- 8. As a reader, I want to read about the books that the company has published
+- 9. As a reader, I want to easily contact the company to ask about a book it has published
+- 10. As a reader, I want to shop for the publisher's books online
+- 11. As a reader, I want to find the publisher's social media page
+
+### User: Editor
+- 12. As an editor, I want to see where editors are involved in the publishing process
+- 13. As an editor, I want to see the company's history of successful publishing
+- 14. As an editor, I want to see where the company is based
+- 15. As an editor, I want to find an e-mail address to send a resume to
+
+1. As a writer, I want to get a feel of how the publisher presents itself
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About Us section | Navigate to the homepage, locate the About Us section | Find a description of the publisher | Works as expected |
+
+2. As a writer, I want to know the genres of books published by the company
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Genres section | Navigate to the homepage, locate the Genres section | Find a list of genres published | Works as expected |
+
+3. As a writer, I want to know what process a writer goes through to get published
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Publishing Steps section | Navigate to the Get Published page, locate the publishing steps | Find a list of steps to getting published | Works as expected |
+
+4. As a writer, I want to see how the company will promote my works
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Featured Book section | Navigate to the Our Library page, locate the Featured Book section | Find a noteworthy book advertised | Works as expected |
+| Other Books section | Navigate to the Our Library page, locate the Other Books section | Find showcases of published books | Works as expected |
+
+5. As a writer, I want to find a phone number or e-mail to discuss working with them
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Scroll to the bottom of the page, and click the phone or envelope icons | Be taken to a page with contact details | Works as expected |
+| Alternative contact details | Navigate to the Contact Us page, scroll down, locate the alternative contact details section | Find an e-mail address | Works as expected |
+
+6. As a writer, I want to find the publisher's address so I can send a physical manuscript
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to the Contact Us section, scroll down, locate the embedded Google Map | Find the publisher's address | Works as expected |
+
+7. As a reader, I want to see if the company publishes books in a genre I enjoy
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Genres section | Navigate to the homepage, locate the Genres section | Find a list of genres published | Works as expected |
+
+8. As a reader, I want to read about the books that the company has published
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Featured Book section | Navigate to the Our Library page, locate the Featured Book section | Find a noteworthy book advertised | Works as expected |
+| Other Books section | Navigate to the Our Library page, locate the Other Books section | Find showcases of published books | Works as expected |
+
+9. As a reader, I want to easily contact the company to ask about a book it has published
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact form | Navigate to the Contact Us page, fill in details and enter a message, then hit "Send" | Send a message to the company's support team | Works as expected |
+
+10. As a reader, I want to shop for the publisher's books online
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Scroll to the bottom of the page, and click the Amazon icon | Be taken to a page to buy books online | Works as expected |
+
+11. As a reader, I want to find the publisher's social media page
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Scroll to the bottom of the page, and click the X icon | Be taken to the publisher's social media | Works as expected |
+
+12. As an editor, I want to see where editors are involved in the publishing process
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Publishing Steps section | Navigate to the Get Published page, locate the publishing steps, read the second step | Find a list of steps to getting published | Works as expected |
+
+13. As an editor, I want to see the company's history of successful publishing
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Featured Book section | Navigate to the Our Library page, locate the Featured Book section | Find a noteworthy book advertised | Works as expected |
+| Other Books section | Navigate to the Our Library page, locate the Other Books section | Find showcases of published books | Works as expected |
+
+14. As an editor, I want to see where the company is based
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to the Contact Us section, scroll down, locate the embedded Google Map | Find the publisher's address | Works as expected |
+
+15. As an editor, I want to find an e-mail address to send a resume to
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer | Scroll to the bottom of the page, and click the envelope icon | Be taken to a page with the publisher's e-mail address | Works as expected |
+| Alternative contact details | Navigate to the Contact Us page, scroll down, locate the alternative contact details section | Find an e-mail address | Works as expected |
 
 ## Deployment
 
