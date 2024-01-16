@@ -161,27 +161,6 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 <img src="docs/validation/lighthouse/lighthouse-404.png">
 </details>
 
-### User Stories
-
-- 2. As a writer, I want to know the genres of books published by the company
-- 3. As a writer, I want to know what process a writer goes through to get published
-- 4. As a writer, I want to see how the company will promote my works
-- 5. As a writer, I want to find a phone number or e-mail to discuss working with them
-- 6. As a writer, I want to find the publisher's address so I can send a physical manuscript
-
-### User: Reader
-- 7. As a reader, I want to see if the company publishes books in a genre I enjoy
-- 8. As a reader, I want to read about the books that the company has published
-- 9. As a reader, I want to easily contact the company to ask about a book it has published
-- 10. As a reader, I want to shop for the publisher's books online
-- 11. As a reader, I want to find the publisher's social media page
-
-### User: Editor
-- 12. As an editor, I want to see where editors are involved in the publishing process
-- 13. As an editor, I want to see the company's history of successful publishing
-- 14. As an editor, I want to see where the company is based
-- 15. As an editor, I want to find an e-mail address to send a resume to
-
 1. As a writer, I want to get a feel of how the publisher presents itself
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
