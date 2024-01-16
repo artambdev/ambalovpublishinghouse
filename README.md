@@ -12,7 +12,7 @@
 - 2. As a writer, I want to know the genres of books published by the company
 - 3. As a writer, I want to know what process a writer goes through to get published
 - 4. As a writer, I want to see how the company will promote my works
-- 5. As a writer, I want to find a phone number or e-mail to discuss working with them
+- 5. As a writer, I want to find a phone number or e-mail to discuss working with the publisher
 - 6. As a writer, I want to find the publisher's address so I can send a physical manuscript
 
 ### User: Reader
@@ -161,11 +161,17 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 <img src="docs/validation/lighthouse/lighthouse-404.png">
 </details>
 
+### User stories
+
 1. As a writer, I want to get a feel of how the publisher presents itself
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | About Us section | Navigate to the homepage, locate the About Us section | Find a description of the publisher | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-1.png">
+</details>
 
 2. As a writer, I want to know the genres of books published by the company
 
@@ -173,11 +179,19 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 |-------------|------------|---------------------|-------------------|
 | Genres section | Navigate to the homepage, locate the Genres section | Find a list of genres published | Works as expected |
 
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-2.png">
+</details>
+
 3. As a writer, I want to know what process a writer goes through to get published
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Publishing Steps section | Navigate to the Get Published page, locate the publishing steps | Find a list of steps to getting published | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-3.png">
+</details>
 
 4. As a writer, I want to see how the company will promote my works
 
@@ -186,12 +200,21 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 | Featured Book section | Navigate to the Our Library page, locate the Featured Book section | Find a noteworthy book advertised | Works as expected |
 | Other Books section | Navigate to the Our Library page, locate the Other Books section | Find showcases of published books | Works as expected |
 
-5. As a writer, I want to find a phone number or e-mail to discuss working with them
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-4.png">
+</details>
+
+5. As a writer, I want to find a phone number or e-mail to discuss working with the publisher
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer | Scroll to the bottom of the page, and click the phone or envelope icons | Be taken to a page with contact details | Works as expected |
 | Alternative contact details | Navigate to the Contact Us page, scroll down, locate the alternative contact details section | Find an e-mail address | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-5-1.png">
+<img src="docs/validation/user-stories/story-5-2.png">
+</details>
 
 6. As a writer, I want to find the publisher's address so I can send a physical manuscript
 
@@ -199,11 +222,19 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 |-------------|------------|---------------------|-------------------|
 | Map | Navigate to the Contact Us section, scroll down, locate the embedded Google Map | Find the publisher's address | Works as expected |
 
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-6.png">
+</details>
+
 7. As a reader, I want to see if the company publishes books in a genre I enjoy
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Genres section | Navigate to the homepage, locate the Genres section | Find a list of genres published | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-2.png">
+</details>
 
 8. As a reader, I want to read about the books that the company has published
 
@@ -212,11 +243,19 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 | Featured Book section | Navigate to the Our Library page, locate the Featured Book section | Find a noteworthy book advertised | Works as expected |
 | Other Books section | Navigate to the Our Library page, locate the Other Books section | Find showcases of published books | Works as expected |
 
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-4.png">
+</details>
+
 9. As a reader, I want to easily contact the company to ask about a book it has published
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Contact form | Navigate to the Contact Us page, fill in details and enter a message, then hit "Send" | Send a message to the company's support team | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-9.png">
+</details>
 
 10. As a reader, I want to shop for the publisher's books online
 
@@ -224,17 +263,29 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 |-------------|------------|---------------------|-------------------|
 | Footer | Scroll to the bottom of the page, and click the Amazon icon | Be taken to a page to buy books online | Works as expected |
 
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-10.png">
+</details>
+
 11. As a reader, I want to find the publisher's social media page
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer | Scroll to the bottom of the page, and click the X icon | Be taken to the publisher's social media | Works as expected |
 
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-11.png">
+</details>
+
 12. As an editor, I want to see where editors are involved in the publishing process
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Publishing Steps section | Navigate to the Get Published page, locate the publishing steps, read the second step | Find a list of steps to getting published | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-12.png">
+</details>
 
 13. As an editor, I want to see the company's history of successful publishing
 
@@ -243,11 +294,19 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 | Featured Book section | Navigate to the Our Library page, locate the Featured Book section | Find a noteworthy book advertised | Works as expected |
 | Other Books section | Navigate to the Our Library page, locate the Other Books section | Find showcases of published books | Works as expected |
 
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-4.png">
+</details>
+
 14. As an editor, I want to see where the company is based
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Map | Navigate to the Contact Us section, scroll down, locate the embedded Google Map | Find the publisher's address | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-6.png">
+</details>
 
 15. As an editor, I want to find an e-mail address to send a resume to
 
@@ -255,6 +314,10 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 |-------------|------------|---------------------|-------------------|
 | Footer | Scroll to the bottom of the page, and click the envelope icon | Be taken to a page with the publisher's e-mail address | Works as expected |
 | Alternative contact details | Navigate to the Contact Us page, scroll down, locate the alternative contact details section | Find an e-mail address | Works as expected |
+
+<details><summary>Screenshot</summary>
+<img src="docs/validation/user-stories/story-15.png">
+</details>
 
 ## Deployment
 
