@@ -6,6 +6,7 @@
 [Link to live webpage](https://artambdev.github.io/ambalovpublishinghouse/)
 
 ## User Stories
+The website was designed for 15 user stories across 3 different types of users:
 
 ### User: Writer
 - 1. As a writer, I want to get a feel of how the publisher presents itself
@@ -28,8 +29,37 @@
 - 14. As an editor, I want to see where the company is based
 - 15. As an editor, I want to find an e-mail address to send a resume to
 
-## Features
+## Design
+Wireframes were made in advance of starting development to plan out the process of building an appealing website and code structured to allow it to be styled as such.
 
+The wireframes are presented below:
+<details><summary>Homepage</summary>
+<img src="docs/wireframes/wireframe-mobile-index.png">
+<img src="docs/wireframes/wireframe-desktop-index.png">
+</details>
+
+<details><summary>Get Published</summary>
+<img src="docs/wireframes/wireframe-mobile-publishing.png">
+<img src="docs/wireframes/wireframe-desktop-publishing.png">
+</details>
+
+<details><summary>Our Library</summary>
+<img src="docs/wireframes/wireframe-mobile-library.png">
+<img src="docs/wireframes/wireframe-desktop-library.png">
+</details>
+
+<details><summary>Contact Us</summary>
+<img src="docs/wireframes/wireframe-mobile-contact.png">
+<img src="docs/wireframes/wireframe-desktop-contact.png">
+</details>
+
+### Colour
+- The soft teal-green colour seen across the site is meant to evoke a calm, natural feel akin to being engrossed in a book, and to evoke the thought of the trees used to make the books. Contrast is added by sections of the site being inverted with a dark grey-green background and white text. White across the website is replaced by an off-white to be easier on the eyes. ColorSpace was used to help find exact shades that would go well with the base green.
+
+### Font
+- Most the website uses the Inter font, and headings use the Roboto font. Both were chosen to be easy on the eyes and are suitable for online usage, being sans-serif fonts. In the case they fail to load, the browser defaults to a sans-serif font.
+
+## Features
 The website has 5 pages and 10 features across them.
 
 ### Pages
@@ -161,7 +191,18 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 <img src="docs/validation/lighthouse/lighthouse-404.png">
 </details>
 
+### Browser Compatibility
+Each page has been tested to work on:
+- Mozilla Firefox
+- Google Chrome
+- Microsoft Edge
+- Safari for iOS
+
+### Device Compatibility
+Each page was tested on Mozilla Firefox and Google Chrome's developer tools for responsive design. Testing was done on a desktop PC running Windows 11 and a Galaxy A50 phone.
+
 ### User stories
+Below is a list of user stories and the process by which they are fulfilled:
 
 1. As a writer, I want to get a feel of how the publisher presents itself
 
@@ -319,8 +360,12 @@ Google Chrome's Lighthouse feature is used to check every page for performance i
 <img src="docs/validation/user-stories/story-15.png">
 </details>
 
-## Deployment
+## Bugs
+Notable bugs found during development:
 
+- The subheading of "How do your book to your readers?" text was originally set to used a balanced wrapping method, which is not supported by all browsers (particularly Safari for iOS) and caused inconsistent styling based on device. This was fixed by redesigning the text to avoid needing the wrapping.
+
+## Deployment
 The website was deployed with GitHub's deployment platform, GitHub Pages. The following steps were followed:
 - Click on the "Settings" tab of the project's repository
 - On the left, under the "Code and automation" section of the settings, navigate to "Pages"
@@ -331,13 +376,23 @@ The website was deployed with GitHub's deployment platform, GitHub Pages. The fo
 On this project's repository, at the upper-right-hand side, there is a "fork" button to create a fork of it.
 
 ## Credits
-
 Free-with-attribution images used:
 - Homepage hero image (not visible on mobile): <a href="https://www.freepik.com/free-vector/books-seamless-pattern-doodle-outline-textbooks_21957290.htm#query=book%20background&position=1&from_view=keyword&track=ais&uuid=e7e2405d-6d8d-4ec5-9b85-63100ca3e73b">upkylak on freepik.com</a>
 - Featured book cover: <a href="https://www.vecteezy.com/photo/21875238-dragon-black-and-white-ai-generated">Elpremiumo Design on Free Stock photos by Vecteezy</a>
 - Art book cover: <a href="https://www.freepik.com/free-photo/abstract-colorful-splash-3d-background-generative-ai-background_40007572.htm#query=background&position=4&from_view=keyword&track=sph&uuid=0107c16f-62b9-4950-ba15-45499fe640bb">maniacvector on freepik.com</a>
 - Drama book cover: <a href="https://www.freepik.com/free-photo/dark-room-with-light-background_24651472.htm#query=background&position=7&from_view=keyword&track=sph&uuid=0107c16f-62b9-4950-ba15-45499fe640bb">vector_corp on freepik.com</a>
 - Alternative contact background: <a href="https://www.freepik.com/free-vector/beautiful-book-club-pattern-illustration_24022531.htm#query=book%20background&position=0&from_view=keyword&track=ais&uuid=bb63777c-ad49-4972-a736-27e633d0b2b1">freepik on freepik.com</a>
+- Icons: <a href="https://fontawesome.com/icons">FontAwesome</a>
+
+Technology used:
+- Languages: HTML 5, CSS
+- IDE: GitPod
+- Version control: GitHub
+- Deployment: GitHub's Pages feature
+- Wireframing: Balsamiq
+- Code validation: W3C HTML Validator, W3C CSS Validator
+- Art program: paint.net
+- Color palette design: <a href="https://mycolor.space">ColorSpace</a>
 
 Code:
 - Code for 404 page functionality was taken from <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site">GitHub's documentation for GitHub Pages</a>
