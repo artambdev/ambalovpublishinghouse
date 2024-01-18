@@ -5,6 +5,34 @@
 
 [Link to live webpage](https://artambdev.github.io/ambalovpublishinghouse/)
 
+## Table of Contents
+
+1. [Overview](#overview)
+2. [User Stories](#user-stories)
+    1. [User: Writer](#user-writer)
+    2. [User: Reader](#user-reader)
+    3. [User: Editor](#user-editor)
+3. [Design](#design)
+    1. [Colour](#colour)
+    2. [Font](#font)
+4. [Features](#features)
+    1. [Pages](#pages)
+5. [Validation](#validation)
+    1. [HTML](#html)
+    2. [CSS](#css)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Browser Compatibility](#browser-compatibility)
+    6. [Device Compatibility](#device-compatibility)
+    7. [User Stories](#user-stories-1)
+6. [Bugs](#bugs)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+
+## Overview
+
+Ambalov Publishing House is a website that aims to create an environment for books to be brought to the spotlight and enjoyed by readers. It targets several different groups, including prospective authors looking to get their works to the public, readers trying to find their next fireside read, and editors seeking to help others realise their ideas. It provides an easy hub for information for all of these users to understand what the publishing house does and how to connect with them.
+
 ## User Stories
 The website was designed for 15 user stories across 3 different types of users:
 
@@ -363,6 +391,7 @@ Below is a list of user stories and the process by which they are fulfilled:
 ## Bugs
 Notable bugs found during development:
 
+- A a large white gap would form between the header and the body of the site on large screens as the logo took up two lines on tablets, but only one on desktops. This was fixed by having the margin revert to the smaller one-line size used on mobile when on a particularly large screen.
 - The subheading of "How do your book to your readers?" text was originally set to used a balanced wrapping method, which is not supported by all browsers (particularly Safari for iOS) and caused inconsistent styling based on device. This was fixed by redesigning the text to avoid needing the wrapping.
 
 ## Deployment
@@ -370,7 +399,7 @@ The website was deployed with GitHub's deployment platform, GitHub Pages. The fo
 - Click on the "Settings" tab of the project's repository
 - On the left, under the "Code and automation" section of the settings, navigate to "Pages"
 - Under the "branch" option, select "main" and save
-- Refreshing after a minute will show a small banner with the live site's URL
+- After automatically refreshing, the page will show a small banner with a link to the live site
 
 ### Forking
 On this project's repository, at the upper-right-hand side, there is a "fork" button to create a fork of it.
@@ -399,9 +428,3 @@ Code:
 
 Other:
 - Mo Shami for mentoring, guidance and feedback throughout the project.
-
-todo:
-style 404 page
-make sure no commented out code, add comments
-html validate by URL
-CSS validate by file
