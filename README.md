@@ -419,7 +419,7 @@ Technology used:
 - Version control: GitHub
 - Deployment: GitHub's Pages feature
 - Wireframing: Balsamiq
-- Code validation: W3C HTML Validator, W3C CSS Validator
+- Code validation: W3C HTML Validator, W3C CSS Validator, WAVE Website Accessibility Evaluation Tool, Google Chrome
 - Art program: paint.net
 - Color palette design: <a href="https://mycolor.space">ColorSpace</a>
 
