@@ -24,7 +24,7 @@
     4. [Performance](#performance)
     5. [Browser Compatibility](#browser-compatibility)
     6. [Device Compatibility](#device-compatibility)
-    7. [User Stories](#user-stories-1)
+    7. [Testing User Stories](#testing-user-stories)
 6. [Bugs](#bugs)
 7. [Deployment](#deployment)
 8. [Credits](#credits)
@@ -229,7 +229,7 @@ Each page has been tested to work on:
 ### Device Compatibility
 Each page was tested on Mozilla Firefox and Google Chrome's developer tools for responsive design. Testing was done on a desktop PC running Windows 11 and a Galaxy A50 phone.
 
-### User stories
+### Testing user stories
 Below is a list of user stories and the process by which they are fulfilled:
 
 1. As a writer, I want to get a feel of how the publisher presents itself
@@ -419,7 +419,7 @@ Technology used:
 - Version control: GitHub
 - Deployment: GitHub's Pages feature
 - Wireframing: Balsamiq
-- Code validation: W3C HTML Validator, W3C CSS Validator, WAVE Website Accessibility Evaluation Tool, Google Chrome
+- Validation: W3C HTML Validator, W3C CSS Validator, WAVE Website Accessibility Evaluation Tool, Google Chrome
 - Art program: paint.net
 - Color palette design: <a href="https://mycolor.space">ColorSpace</a>
 
